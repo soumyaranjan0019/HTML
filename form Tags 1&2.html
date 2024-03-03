@@ -1,0 +1,55 @@
+<html>
+     <head>
+	     <title>form Tags-1&2</title>
+	 </head>
+	 
+		  <body>
+		       <form action="" method="post">
+			       <fieldset>
+				   <legend>Enter Personal details</legend>
+			       <label>name</label> <input type="text" name="fname" value="" placeholder="Enter your name"> <br><br>
+				   
+				   <label>password</label> <input type="password" name=""> <br><br>
+				   
+				   <label>Gender</label>
+				   
+				   <label for="male">Male</label> <input type="radio" name="" required>
+				   
+				   <label>Female</label> <input type="radio" name=""> <br><br>
+				   
+				   <label>Hobbies</label> <input type="checkbox" name="hobby" id="music">
+				   
+				   <label for="music">music</label> <input type="radio" name="">
+				   
+				   <label>message</label> <textarea rows="10" cols="30"></textarea><br><br>
+				   
+				   <label>country</label> <select name="" size="3" multiple>
+												<option value="IND">India</option>
+												<option value="US">USA</option>
+												<option value="UK">UK</option>
+												<option value="SP" selected>Spain</option>
+										  </select><br><br>
+					<label>Cars</label>		<select name="" size="3" multiple>
+												<optgroup label="premium cars">
+													<option value="">Toyota</option>
+													<option value="">Audi</option>
+													<option value="">BMW</option>
+													<option value="" selected>RR</option>
+												</optgroup>
+										  </select><br><br>
+					<label>Cars</label>	<input list="cars">
+										<datalist id="cars">
+										        <option value="Toyota"> 
+												<option value="Audi">
+												<option value="RR">
+										</datalist><br><br>
+					<label>Upload File</label>   <input type="file" accept="image/*" accept="video/*" accept="audio/*" name=""	/>
+					 <br><br>
+
+					<input type="submit" value="save" src="image/Know your worth.jpg"/>
+					
+					<input type="reset"/>
+					</fieldset>
+				</form>
+		  </body>
+</html>
